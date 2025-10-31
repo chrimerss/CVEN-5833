@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVEN-5833: AI in Earth System Science and Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CVEN-5833</h1>
+            <h2>AI in Earth System Science and Engineering</h2>
+            <p class="subtitle">University of Colorado Boulder</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#instructor">Instructor</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#assignments">Assignments</a></li>
+                <li><a href="#grading">Grading</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="overview" class="container">
+            <h2>Course Overview</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Course Information</h3>
+                    <ul>
+                        <li><strong>Course Number:</strong> CVEN-5833</li>
+                        <li><strong>Course Title:</strong> AI in Earth System Science and Engineering</li>
+                        <li><strong>Credits:</strong> 3</li>
+                        <li><strong>Term:</strong> Spring 2026</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Meeting Times</h3>
+                    <ul>
+                        <li><strong>Days:</strong> TTH</li>
+                        <li><strong>Time:</strong> 8:30-9:45</li>
+                        <li><strong>Location:</strong> SEEC N124</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="description" class="container">
+            <h2>Course Description</h2>
+            <p>
+                This course explores the application of artificial intelligence and machine learning 
+                techniques to problems in Earth System Science. Students will learn how modern AI 
+                methods can be applied to analyze, model, and predict complex Earth system processes 
+                including climate dynamics, hydrology, atmospheric science, and environmental monitoring.
+            </p>
+        </section>
+
+        <section id="objectives" class="container">
+            <h2>Learning Objectives</h2>
+            <p>Upon successful completion of this course, students will be able to:</p>
+            <ul class="objectives-list">
+                <li>Understand fundamental AI/ML concepts relevant to Earth system science</li>
+                <li>Apply machine learning techniques to analyze Earth observation data</li>
+                <li>Develop predictive models for Earth system processes</li>
+                <li>Evaluate model performance and interpret results in scientific context</li>
+                <li>Critically assess the application of AI methods to environmental challenges</li>
+            </ul>
+        </section>
+
+        <section id="instructor" class="container">
+            <h2>Instructor Information</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Instructor</h3>
+                    <ul>
+                        <li><strong>Name:</strong> <a href="https://hydrors.us/">Zhi Li</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:[email]">Zhi.Li-2@colorado.edu</a></li>
+                        <li><strong>Office:</strong> SEEC N104</li>
+                        <li><strong>Office Hours:</strong> TBD</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Teaching Assistant</h3>
+                    <ul>
+                        <li><strong>Name:</strong> TBD</li>
+                        <li><strong>Email:</strong> <a href="mailto:[email]">TBD</a></li>
+                        <li><strong>Office Hours:</strong> TBD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="prerequisites" class="container">
+            <h2>Prerequisites</h2>
+            <p>
+                <li>Linear Algebra</li>
+                <li>Calculus</li>
+                <li>Programming (Python)</li>
+            </p>
+        </section>
+
+        <section id="schedule" class="container">
+            <h2>Proposed Course Topics</h2>
+            <div class="schedule-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No. </th>
+                            <th>Main Topic</th>
+                            <th>Items</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Introduction to Programming Language and AI & Earth System Data</td>
+                            <td>
+                                <li>Overview of the field</li>
+                                <li>Earth System Data</li>
+                                <li>Programming Language</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Supervised Learning and Regression </td>
+                            <td>
+                                <li>Definition of the supervised learning setup</li>
+                                <li>Weighted Least Squares</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Classification and Non-Linearity </td>
+                            <td>
+                                <li>Logistic Regression</li>
+                                <li>Kernels</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Model-Based and Non-Parametric Methods </td>
+                            <td>
+                                <li>Support Vector Machines (SVM)</li>
+                                <li>Tree-Based Methods: Decision Trees and Random Forests</li>
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td>5</td>
+                            <td>Deep Learning Fundamentals </td>
+                            <td>
+                                <li>Artificial Neural Networks (ANNs) and activation functions</li>
+                                <li>Backpropagation and gradient descent</li>
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td>6</td>
+                            <td>Convolutional Neural Networks (CNNs) for Spatial Data </td>
+                            <td>
+                                <li>CNN Architecture</li>
+                                <li>Advanced techniques: The U-Net </li>
+                                <li>Transfer Learning and data augmentation</li>
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td>7</td>
+                            <td>Recurrent and Sequence Models </td>
+                            <td>
+                                <li>Recurrent Neural Networks (RNNs)</li>
+                                <li>Long Short-Term Memory (LSTM)</li>
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td>8</td>
+                            <td>Graph and Generative Models </td>
+                            <td>
+                                <li>Graph Neural Networks (GNNs)</li>
+                                <li>Generative AI: Introduction to Generative Adversarial Networks (GANs) and Diffusion Models</li>
+                                <li>Applications of generative models</li>
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td>9</td>
+                            <td>Advanced Sequence Modeling </td>
+                            <td>
+                                <li>Transformer Architecture</li>
+                                <li>Attention Mechanism</li>
+                                <li>Applications of transformers</li>
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td>10</td>
+                            <td>Foundation Models in Practice</td>
+                            <td>
+                                <li>Geospatial and Weather Foundation Models </li>
+                                <li>large models for zero-shot/few-shot learning, fine tuning</li>
+                            </td>
+                        </tr>     
+                        <tr>
+                            <td>11</td>
+                            <td>Logistic Regression & Kernels</td>
+                            <td>[Assignment]</td>
+                        </tr>     
+                        <tr>
+                            <td>12</td>
+                            <td>Societal Impact & Ethics </td>
+                            <td>
+                                <li>Integrated case studies: Natural Hazard Risk Quantification </li>
+                                <li>AI for Sustainability, water resource management</li>
+                                <li>Ethics of AI in Earth Science</li>
+                            </td>
+                        </tr>                                                                                                                                                                                                                                                                      
+                        <!-- Add more weeks as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="assignments" class="container">
+            <h2>Assignments</h2>
+            <div class="assignments-list">
+                <div class="assignment-item">
+                    <h3>Assignment 1: Data Analysis</h3>
+                    <p><strong>Due Date:</strong> TBD</p>
+                    <p> </p>
+                </div>
+                <div class="assignment-item">
+                    <h3>Assignment 2: TBD</h3>
+                    <p><strong>Due Date:</strong> TBD</p>
+                    <p>TBD</p>
+                </div>
+                <div class="assignment-item">
+                    <h3>Assignment 3: TBD</h3>
+                    <p><strong>Due Date:</strong> TBD</p>
+                    <p>TBD</p>
+                </div>                
+                <div class="assignment-item">
+                    <h3>Final Project</h3>
+                    <p><strong>Due Date:</strong> [Date]</p>
+                    <p>Comprehensive project applying AI methods to an Earth system science problem...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="grading" class="container">
+            <h2>Grading Policy</h2>
+            <div class="grading-breakdown">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Weight</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Assignments</td>
+                            <td>40%</td>
+                        </tr>
+                        <tr>
+                            <td>Midterm Exam</td>
+                            <td>25%</td>
+                        </tr>
+                        <tr>
+                            <td>Final Project</td>
+                            <td>30%</td>
+                        </tr>
+                        <tr>
+                            <td>Participation</td>
+                            <td>5%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="grading-scale">
+                <h3>Grading Scale</h3>
+                <ul>
+                    <li>A: 90-100%</li>
+                    <li>B: 80-89%</li>
+                    <li>C: 70-79%</li>
+                    <li>D: 60-69%</li>
+                    <li>F: &lt;60%</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="policies" class="container">
+            <h2>Course Policies</h2>
+            <div class="policies-list">
+                <div class="policy-item">
+                    <h3>Late Submissions</h3>
+                    <p>Assignments submitted after the due date will be penalized 10% per day late, 
+                    up to a maximum of 3 days. After 3 days, assignments will not be accepted 
+                    without prior approval from the instructor.</p>
+                </div>
+                <div class="policy-item">
+                    <h3>Academic Integrity</h3>
+                    <p>All work submitted must be your own. Collaboration on assignments is allowed 
+                    up to the point of sharing code or solutions. Any violation of academic integrity 
+                    will be reported to the Honor Code Council.</p>
+                </div>
+                <div class="policy-item">
+                    <h3>Accommodations</h3>
+                    <p>Students with disabilities who need accommodations should contact Disability 
+                    Services and inform the instructor as early as possible in the semester.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="container">
+            <h2>Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>Online books</h3>
+                    <ul>
+                        <li><a href="https://dafriedman97.github.io/mlbook/content/introduction.html">Machine Learning from Scratch</a></li>
+                        <li><a href="https://udlbook.github.io/udlbook/">Understanding Deep Learning</a></li>
+                        <li><a href="https://course.fast.ai/">Practical Deep Learning for Coders</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Youtube videos</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=_NLHFoVNlbg&list=PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X">Stanford CS230: Intro to Deep Learning</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=2fq9wYslV0A&list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16">Stanford CS231n: Deep Learning with Computer Vision</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Software/Tools</h3>
+                    <ul>
+                        <li><a href="https://learnbyexample.github.io/100_page_python_intro/">100 Page Python Intro</a></li>
+                        <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a></li>                        
+                        <li><a href="https://www.manning.com/books/deep-learning-with-pytorch">Deep Learning with PyTorch</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=HW29067qVWk">Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Statistics</h3>
+                    <ul>
+                        <li><a href="https://www.statlearning.com/?ref=dataschool.io">An Introduction to Statistical Learning</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 University of Colorado Boulder. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="#overview">Back to Top</a> | 
+                <a href="mailto:[email]">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
