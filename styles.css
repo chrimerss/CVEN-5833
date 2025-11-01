@@ -34,9 +34,22 @@ body {
 header {
     background: linear-gradient(135deg, var(--primary-color) 0%, #2c7fb8 100%);
     color: white;
-    padding: 60px 0;
+    padding: 40px 0 60px 0;
     text-align: center;
     box-shadow: var(--shadow-lg);
+    overflow: hidden;
+}
+
+.banner-image {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px auto;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
