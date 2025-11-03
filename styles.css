@@ -421,3 +421,20 @@ footer a:hover {
         padding: 20px 0;
     }
 }
+
+/* Banner tweaks: remove edge, shrink to 80
+/* Banner tweaks: remove edge, shrink to 80% */
+.banner-image {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    max-height: 400px;
+    object-fit: contain;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
