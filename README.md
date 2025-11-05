@@ -2,6 +2,8 @@
 
 This is the course website for CVEN-5833: AI in Earth System Science at the University of Colorado Boulder.
 
+<img src="res/flyer.png">
+
 ## Website Structure
 
 - `index.html` - Main course website page with syllabus information
